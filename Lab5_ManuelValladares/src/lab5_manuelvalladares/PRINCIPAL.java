@@ -685,7 +685,9 @@ public class PRINCIPAL extends javax.swing.JFrame {
             LOGIN.pack();
             LOGIN.setLocationRelativeTo(this);
             LOGIN.setVisible(true);
-
+        }else{
+            JOptionPane.showMessageDialog(this,"Admin no detectado");
+            
         }
 
     }//GEN-LAST:event_jButton3MouseClicked
